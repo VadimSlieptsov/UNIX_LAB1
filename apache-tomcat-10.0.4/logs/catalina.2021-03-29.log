@@ -1,0 +1,535 @@
+29-Mar-2021 20:54:04.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.4
+29-Mar-2021 20:54:04.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2021 11:07:15 UTC
+29-Mar-2021 20:54:04.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.4.0
+29-Mar-2021 20:54:04.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Mar-2021 20:54:04.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             5.8.0-48-generic
+29-Mar-2021 20:54:04.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+29-Mar-2021 20:54:04.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+29-Mar-2021 20:54:04.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_282-8u282-b08-0ubuntu1~20.10-b08
+29-Mar-2021 20:54:04.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+29-Mar-2021 20:54:04.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 20:54:04.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 20:54:04.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/user/Документы/apache-tomcat-10.0.4/conf/logging.properties
+29-Mar-2021 20:54:04.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2021 20:54:04.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Mar-2021 20:54:04.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Mar-2021 20:54:04.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Mar-2021 20:54:04.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+29-Mar-2021 20:54:04.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 20:54:04.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 20:54:04.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/user/Документы/apache-tomcat-10.0.4/temp
+29-Mar-2021 20:54:04.914 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+29-Mar-2021 20:54:05.226 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 20:54:05.269 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [535] milliseconds
+29-Mar-2021 20:54:05.297 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2021 20:54:05.298 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.4]
+29-Mar-2021 20:54:05.307 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/host-manager]
+29-Mar-2021 20:54:05.595 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/host-manager] has finished in [287] ms
+29-Mar-2021 20:54:05.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/manager]
+29-Mar-2021 20:54:05.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/manager] has finished in [40] ms
+29-Mar-2021 20:54:05.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/examples]
+29-Mar-2021 20:54:05.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/examples] has finished in [210] ms
+29-Mar-2021 20:54:05.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/ROOT]
+29-Mar-2021 20:54:05.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/ROOT] has finished in [19] ms
+29-Mar-2021 20:54:05.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/docs]
+29-Mar-2021 20:54:05.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/docs] has finished in [16] ms
+29-Mar-2021 20:54:05.899 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 20:54:05.907 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [637] milliseconds
+29-Mar-2021 21:05:31.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.4
+29-Mar-2021 21:05:31.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2021 11:07:15 UTC
+29-Mar-2021 21:05:31.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.4.0
+29-Mar-2021 21:05:31.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Mar-2021 21:05:31.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             5.8.0-48-generic
+29-Mar-2021 21:05:31.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+29-Mar-2021 21:05:31.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+29-Mar-2021 21:05:31.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_282-8u282-b08-0ubuntu1~20.10-b08
+29-Mar-2021 21:05:31.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+29-Mar-2021 21:05:31.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 21:05:31.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 21:05:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/user/Документы/apache-tomcat-10.0.4/conf/logging.properties
+29-Mar-2021 21:05:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2021 21:05:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Mar-2021 21:05:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Mar-2021 21:05:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Mar-2021 21:05:31.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+29-Mar-2021 21:05:31.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 21:05:31.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 21:05:31.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/user/Документы/apache-tomcat-10.0.4/temp
+29-Mar-2021 21:05:31.826 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+29-Mar-2021 21:05:32.078 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 21:05:32.099 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1055)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:558)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1045)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Адрес уже используется
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:461)
+		at sun.nio.ch.Net.bind(Net.java:453)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:243)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:198)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1175)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1188)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:580)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1052)
+		... 13 more
+29-Mar-2021 21:05:32.100 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [422] milliseconds
+29-Mar-2021 21:05:32.117 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2021 21:05:32.117 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.4]
+29-Mar-2021 21:05:32.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/host-manager]
+29-Mar-2021 21:05:32.343 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/host-manager] has finished in [217] ms
+29-Mar-2021 21:05:32.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/manager]
+29-Mar-2021 21:05:32.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/manager] has finished in [21] ms
+29-Mar-2021 21:05:32.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/examples]
+29-Mar-2021 21:05:32.557 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/examples] has finished in [192] ms
+29-Mar-2021 21:05:32.557 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/ROOT]
+29-Mar-2021 21:05:32.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/ROOT] has finished in [11] ms
+29-Mar-2021 21:05:32.569 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/docs]
+29-Mar-2021 21:05:32.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/docs] has finished in [10] ms
+29-Mar-2021 21:05:32.584 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [483] milliseconds
+29-Mar-2021 21:05:32.585 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Адрес уже используется (Bind failed)
+		at java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+		at java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.net.ServerSocket.<init>(ServerSocket.java:252)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:887)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:833)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+29-Mar-2021 21:05:32.585 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 21:05:32.585 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2021 21:05:32.599 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 21:05:32.600 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:05:41.603 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+29-Mar-2021 22:07:31.468 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+29-Mar-2021 22:07:53.556 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+29-Mar-2021 22:08:34.054 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-Mar-2021 22:08:34.054 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:08:34.062 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2021 22:08:34.082 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:08:34.109 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:36:33.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.4
+29-Mar-2021 22:36:33.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2021 11:07:15 UTC
+29-Mar-2021 22:36:33.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.4.0
+29-Mar-2021 22:36:33.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Mar-2021 22:36:33.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             5.8.0-48-generic
+29-Mar-2021 22:36:33.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+29-Mar-2021 22:36:33.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+29-Mar-2021 22:36:33.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_282-8u282-b08-0ubuntu1~20.10-b08
+29-Mar-2021 22:36:33.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+29-Mar-2021 22:36:33.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 22:36:33.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 22:36:33.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/user/Документы/apache-tomcat-10.0.4/conf/logging.properties
+29-Mar-2021 22:36:33.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2021 22:36:33.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Mar-2021 22:36:33.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Mar-2021 22:36:33.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Mar-2021 22:36:33.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+29-Mar-2021 22:36:33.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 22:36:33.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 22:36:33.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/user/Документы/apache-tomcat-10.0.4/temp
+29-Mar-2021 22:36:33.529 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+29-Mar-2021 22:36:33.831 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:36:33.876 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [494] milliseconds
+29-Mar-2021 22:36:33.898 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2021 22:36:33.898 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.4]
+29-Mar-2021 22:36:33.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/host-manager]
+29-Mar-2021 22:36:34.116 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/host-manager] has finished in [208] ms
+29-Mar-2021 22:36:34.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/manager]
+29-Mar-2021 22:36:34.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/manager] has finished in [28] ms
+29-Mar-2021 22:36:34.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/examples]
+29-Mar-2021 22:36:34.328 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/examples] has finished in [182] ms
+29-Mar-2021 22:36:34.329 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/ROOT]
+29-Mar-2021 22:36:34.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/ROOT] has finished in [13] ms
+29-Mar-2021 22:36:34.342 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/Lab1_war]
+29-Mar-2021 22:36:34.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/Lab1_war] has finished in [23] ms
+29-Mar-2021 22:36:34.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/docs]
+29-Mar-2021 22:36:34.381 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/docs] has finished in [14] ms
+29-Mar-2021 22:36:34.384 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:36:34.399 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [522] milliseconds
+29-Mar-2021 22:37:11.849 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+29-Mar-2021 22:37:20.434 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-Mar-2021 22:37:20.434 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:37:20.442 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2021 22:37:20.464 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:37:20.488 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 23:49:37.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.4
+29-Mar-2021 23:49:37.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2021 11:07:15 UTC
+29-Mar-2021 23:49:37.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.4.0
+29-Mar-2021 23:49:37.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Mar-2021 23:49:37.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             5.8.0-48-generic
+29-Mar-2021 23:49:37.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+29-Mar-2021 23:49:37.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+29-Mar-2021 23:49:37.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_282-8u282-b08-0ubuntu1~20.10-b08
+29-Mar-2021 23:49:37.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+29-Mar-2021 23:49:37.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 23:49:37.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 23:49:37.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/user/Документы/apache-tomcat-10.0.4/conf/logging.properties
+29-Mar-2021 23:49:37.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2021 23:49:37.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Mar-2021 23:49:37.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Mar-2021 23:49:37.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Mar-2021 23:49:37.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+29-Mar-2021 23:49:37.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 23:49:37.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 23:49:37.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/user/Документы/apache-tomcat-10.0.4/temp
+29-Mar-2021 23:49:37.929 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+29-Mar-2021 23:49:38.217 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 23:49:38.256 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [480] milliseconds
+29-Mar-2021 23:49:38.280 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2021 23:49:38.280 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.4]
+29-Mar-2021 23:49:38.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/host-manager]
+29-Mar-2021 23:49:38.519 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/host-manager] has finished in [228] ms
+29-Mar-2021 23:49:38.519 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/manager]
+29-Mar-2021 23:49:38.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/manager] has finished in [28] ms
+29-Mar-2021 23:49:38.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/examples]
+29-Mar-2021 23:49:38.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/examples] has finished in [176] ms
+29-Mar-2021 23:49:38.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/ROOT]
+29-Mar-2021 23:49:38.737 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/ROOT] has finished in [13] ms
+29-Mar-2021 23:49:38.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/Lab1_war]
+29-Mar-2021 23:49:38.757 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/Lab1_war] has finished in [20] ms
+29-Mar-2021 23:49:38.757 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/docs]
+29-Mar-2021 23:49:38.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/docs] has finished in [13] ms
+29-Mar-2021 23:49:38.773 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 23:49:38.781 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [524] milliseconds
+29-Mar-2021 23:49:58.257 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-Mar-2021 23:49:58.258 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 23:49:58.265 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2021 23:49:58.290 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 23:49:58.311 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 23:50:11.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.4
+29-Mar-2021 23:50:11.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2021 11:07:15 UTC
+29-Mar-2021 23:50:11.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.4.0
+29-Mar-2021 23:50:11.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Mar-2021 23:50:11.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             5.8.0-48-generic
+29-Mar-2021 23:50:11.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+29-Mar-2021 23:50:11.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+29-Mar-2021 23:50:11.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_282-8u282-b08-0ubuntu1~20.10-b08
+29-Mar-2021 23:50:11.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+29-Mar-2021 23:50:11.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 23:50:11.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 23:50:11.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/user/Документы/apache-tomcat-10.0.4/conf/logging.properties
+29-Mar-2021 23:50:11.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2021 23:50:11.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Mar-2021 23:50:11.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Mar-2021 23:50:11.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Mar-2021 23:50:11.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+29-Mar-2021 23:50:11.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 23:50:11.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 23:50:11.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/user/Документы/apache-tomcat-10.0.4/temp
+29-Mar-2021 23:50:11.801 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+29-Mar-2021 23:50:12.064 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 23:50:12.110 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [457] milliseconds
+29-Mar-2021 23:50:12.128 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2021 23:50:12.128 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.4]
+29-Mar-2021 23:50:12.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/host-manager]
+29-Mar-2021 23:50:12.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/host-manager] has finished in [224] ms
+29-Mar-2021 23:50:12.362 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/manager]
+29-Mar-2021 23:50:12.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/manager] has finished in [27] ms
+29-Mar-2021 23:50:12.390 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/examples]
+29-Mar-2021 23:50:12.586 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/examples] has finished in [196] ms
+29-Mar-2021 23:50:12.586 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/ROOT]
+29-Mar-2021 23:50:12.597 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/ROOT] has finished in [11] ms
+29-Mar-2021 23:50:12.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/Lab1_war]
+29-Mar-2021 23:50:12.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/Lab1_war] has finished in [21] ms
+29-Mar-2021 23:50:12.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/docs]
+29-Mar-2021 23:50:12.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/docs] has finished in [13] ms
+29-Mar-2021 23:50:12.635 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 23:50:12.644 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [533] milliseconds
+29-Mar-2021 23:51:45.216 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-Mar-2021 23:51:45.217 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 23:51:45.223 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2021 23:51:45.244 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 23:51:45.270 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:47:15.197 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-Mar-2021 22:47:15.197 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:47:15.204 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2021 22:47:15.223 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:47:15.252 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:55:23.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.4
+29-Mar-2021 22:55:23.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2021 11:07:15 UTC
+29-Mar-2021 22:55:23.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.4.0
+29-Mar-2021 22:55:23.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Mar-2021 22:55:23.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             5.8.0-48-generic
+29-Mar-2021 22:55:23.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+29-Mar-2021 22:55:23.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+29-Mar-2021 22:55:23.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            1.8.0_282-8u282-b08-0ubuntu1~20.10-b08
+29-Mar-2021 22:55:23.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+29-Mar-2021 22:55:23.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 22:55:23.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 22:55:23.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/user/Документы/apache-tomcat-10.0.4/conf/logging.properties
+29-Mar-2021 22:55:23.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2021 22:55:23.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Mar-2021 22:55:23.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Mar-2021 22:55:23.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Mar-2021 22:55:23.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+29-Mar-2021 22:55:23.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 22:55:23.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/user/Документы/apache-tomcat-10.0.4
+29-Mar-2021 22:55:23.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/user/Документы/apache-tomcat-10.0.4/temp
+29-Mar-2021 22:55:23.243 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+29-Mar-2021 22:55:23.518 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:55:23.571 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [737] milliseconds
+29-Mar-2021 22:55:23.593 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [19] column [2]
+	org.xml.sax.SAXParseException; lineNumber: 19; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1473)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1395)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1556)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:107)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:160)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:127)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:101)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:76)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+29-Mar-2021 22:55:23.595 WARNING [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.xml.sax.SAXParseException; lineNumber: 19; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1556)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:107)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:160)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:127)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:101)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:76)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+29-Mar-2021 22:55:23.595 SEVERE [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception processing global JNDI Resources
+	javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 19; columnNumber: 2; The markup in the document following the root element must be well-formed.]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:882)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:160)
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:127)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:101)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:76)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.xml.sax.SAXParseException; lineNumber: 19; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1556)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:107)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		... 19 more
+29-Mar-2021 22:55:23.596 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2021 22:55:23.596 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.4]
+29-Mar-2021 22:55:23.599 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [19] column [2]
+	org.xml.sax.SAXParseException; lineNumber: 19; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1473)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1395)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1556)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:107)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:174)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:260)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:281)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:248)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:116)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+29-Mar-2021 22:55:23.599 WARNING [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+	org.xml.sax.SAXParseException; lineNumber: 19; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1556)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:107)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:174)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:260)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:281)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:248)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:116)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+29-Mar-2021 22:55:23.599 SEVERE [main] org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase Exception looking up UserDatabase under key [UserDatabase]
+	javax.naming.NamingException: Unexpected exception resolving reference [Root exception is org.xml.sax.SAXParseException; lineNumber: 19; columnNumber: 2; The markup in the document following the root element must be well-formed.]
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:882)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:174)
+		at org.apache.catalina.realm.UserDatabaseRealm.getUserDatabase(UserDatabaseRealm.java:260)
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:281)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:248)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:116)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.xml.sax.SAXParseException; lineNumber: 19; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1556)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:446)
+		at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:107)
+		at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:96)
+		at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+		at org.apache.naming.NamingContext.lookup(NamingContext.java:857)
+		... 21 more
+29-Mar-2021 22:55:23.601 SEVERE [main] org.apache.catalina.realm.CombinedRealm.startInternal Failed to start [org.apache.catalina.realm.UserDatabaseRealm] realm
+	org.apache.catalina.LifecycleException: No UserDatabase component found under key [UserDatabase]
+		at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:283)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:248)
+		at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:116)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:902)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+29-Mar-2021 22:55:23.608 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/host-manager]
+29-Mar-2021 22:55:23.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/host-manager] has finished in [223] ms
+29-Mar-2021 22:55:23.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/manager]
+29-Mar-2021 22:55:23.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/manager] has finished in [49] ms
+29-Mar-2021 22:55:23.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/examples]
+29-Mar-2021 22:55:24.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/examples] has finished in [273] ms
+29-Mar-2021 22:55:24.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/ROOT]
+29-Mar-2021 22:55:24.174 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/ROOT] has finished in [20] ms
+29-Mar-2021 22:55:24.174 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/Lab1_war]
+29-Mar-2021 22:55:24.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/Lab1_war] has finished in [32] ms
+29-Mar-2021 22:55:24.207 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/Документы/apache-tomcat-10.0.4/webapps/docs]
+29-Mar-2021 22:55:24.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/Документы/apache-tomcat-10.0.4/webapps/docs] has finished in [16] ms
+29-Mar-2021 22:55:24.232 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Mar-2021 22:55:24.250 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [679] milliseconds

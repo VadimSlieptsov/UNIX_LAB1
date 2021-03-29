@@ -1,11 +1,21 @@
 #!/bin/bash
-sudo apt update
-sudo apt install apache2
-sudo systemctl stop apache2
-echo "Введите команду: запустить сервер(start) или остановить(stop):"
-read comm
-if [[ "$comm" == "start" ]]; then
-	sudo systemctl start apache2
+sudo netstat -lpn |grep :8080
+
+if [[ $? -eq 1 ]]; then
+	echo "Server doesn't work"
+	echo "Run server?[y/n]"
+	read COMM
+	if [[ "$COMM" == "y" ]]; then
+		cd "/home/user/Документы/apache-tomcat-10.0.4/bin"
+		./startup.sh
+		xdg-open http://localhost:8080/Lab1_war/
+	fi
 else
-	sudo systemctl stop apache2
+	echo "Server is working"
+		echo "Stop server?[y/n]"
+	read COMM
+	if [[ "$COMM" == "y" ]]; then
+		cd "/home/user/Документы/apache-tomcat-10.0.4/bin"
+		./shutdown.sh
+	fi
 fi
